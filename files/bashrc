@@ -73,4 +73,4 @@ export PATH="$PATH:~/.env/bin"
 export LD_LIBRARY_PATH="~/.env/lib"
 export LDFLAGS='-L~/.env/lib/'
 export INCLUDE_PATH="~/.env/include"
-export PS1="\[\e[32m\]\A\[\e[m\]:\[\e[33m\]\u\[\e[m\]@ \[\e[31m\]\w\[\e[m\]\\$ "
+export PS1="\[\e[32m\]\A\[\e[m\]:\[\e[33m\]\u\[\e[m\]@ \[\e[31m\]\w\[\e[m\] \\$ "
