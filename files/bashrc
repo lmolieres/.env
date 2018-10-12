@@ -65,6 +65,7 @@ fi
 # différent alias
 alias ls='ls --color=auto'
 alias ll='ls -all'
+alias la='ls -a'
 alias deb2targz='ar xv'
 alias dezip='tar xvf'
 
