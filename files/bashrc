@@ -70,7 +70,7 @@ alias deb2targz='ar xv'
 alias dezip='tar xvf'
 
 # ajouter chemin
-export PATH="$PATH:~/.env/bin"
+export PATH="$PATH:/sbin:~/.env/bin:"
 export LD_LIBRARY_PATH="~/.env/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH"
 export LDFLAGS='-L~/.env/lib/'
 export INCLUDE_PATH="~/.env/include"
